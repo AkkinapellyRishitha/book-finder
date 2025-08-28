@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
